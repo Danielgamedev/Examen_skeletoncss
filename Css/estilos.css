@@ -1,0 +1,219 @@
+body{
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.Head {
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.Logo span{
+    font-size: 50px;
+    padding-left: 10px;
+    color: white;
+}
+
+nav{
+    display: flex; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a{
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color: greenyellow;
+}
+
+
+/* Seccion hero */
+
+h3{
+    font-size: 16px;
+}
+
+.section{
+    padding: 9rem 0 7rem;
+    text-align: center;
+}
+
+.section-heading{
+    margin-bottom: 1.2rem;
+}
+
+.showcase-img{
+    position:relative;
+    max-width: 70%;
+    margin: -8rem auto -12rem;
+}
+/* Fin Seccion hero */
+
+
+
+/* Seccion feacture */
+.section-a{
+    background-size: cover;
+    color: black;
+    padding: 5rem;
+    margin-top: 7rem;
+    
+}
+.section-a .fa{
+    font-size: 40px;
+    margin-bottom: .5rem;
+    color: #b4e6fb;
+}
+.section-a h5{
+    margin-bottom: .4rem;
+}
+.section-a span{
+    color: white;
+    background: black;
+    border-radius: 30%;
+    font-size: 50px;
+}
+/* Fin Seccion Feacture */
+
+
+
+/* Sección noticias */
+.showcaseN-img{
+    position:relative;
+    max-width: 70%;
+    margin: 1rem auto -12rem;
+    padding-left: 100px;
+
+}
+.sectionN{
+    padding: 9rem 0 7rem;
+    text-align: left;
+}
+/* Fin de Sección Noticia */
+
+/* Seccion slider */
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 97%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: rgb(226, 18, 18);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+/* Fin de Seccion slider */
+
+
+/*Seccion contacto*/
+
+.inputs #exampleEmailInput {
+    margin-right: 10px;
+  }
+
+/* Fin de contacto  */
+
+/* Footer */
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 50px;
+    width: 100%;
+    padding: 10px;   
+}
+/* Foooter */
+
+
+
+.foot a{
+    padding-left: 50px;
+}
+
+
+
